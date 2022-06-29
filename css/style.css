@@ -471,7 +471,45 @@ margin-right: 30px;
   margin-bottom: 30px;
  }
 
+ .action {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+ }
 
+ .action-icon {
+  fill: #AFB1B8;
+  
+ }
+
+.action-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+
+}
+
+.action-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.regular-customers {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-color);
+margin-bottom: 50px;
+}
+
+.action-icon:hover, .action-icon:focus {
+  fill: var(--brand-color);
+}
 
  /* .border-card {
   border: 1px solid #EEEEEE;
