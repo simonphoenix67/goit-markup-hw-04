@@ -193,6 +193,12 @@ padding-bottom: 94px;
     display: flex;
 }
 
+.list-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 
 .web-logo {
   color: var(--secondary-color);
