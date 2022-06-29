@@ -31,6 +31,7 @@ ul
 .header-height{
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 
 
@@ -39,8 +40,8 @@ ul
 }
 
 .list-mail{
-  margin-left: 331px;
-  margin-right: 50px;
+  margin-left: 301px;
+  margin-right: 40px;
 }
 
 /* .header {
@@ -197,6 +198,36 @@ padding-bottom: 94px;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+/* 
+.list-mail::before {
+  content: "";
+  padding-left: 10px;
+ } */
+
+ /* .list-info::before {
+  content: "";
+  padding-left: 10px;
+ } */
+/* 
+ .list-phone::before {
+  content: "";
+  padding-left: 10px;
+ } */
+
+.mail::before {
+  display: inline-block;
+content: "";
+
+}
+
+.phone::before {
+  display: inline-block;
+content: "";
+}
+
+.info-svg {
+ margin-right: 10px;
 }
 
 
@@ -497,6 +528,14 @@ margin-right: 30px;
   height: 92px;
   border: 1px solid #AFB1B8;
 
+}
+
+.preview-pics{
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
 }
 
 .action-list:not(:last-child) {
