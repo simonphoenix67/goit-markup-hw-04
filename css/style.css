@@ -131,6 +131,8 @@ ul {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-top: 10px;
+  border-radius: 4px;
+  border: none;
   /* padding-bottom: 200px; */
   /* border-radius: 3px; */
 }
@@ -142,6 +144,17 @@ ul {
   padding-bottom: 200px;
   text-align: center;
   /* вниз падинг, перенести "для", кнопка с падингом низ */
+}
+
+.bg-img {
+  background-image: linear-gradient(#2f303a 40%, #2f303a 40%);
+  /* display: flex; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  background-image: url(../img/img-bg.jpg);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-header {
@@ -355,6 +368,9 @@ h1 {
 
 .our-team-item {
   background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item:not(:last-child) {
@@ -489,6 +505,9 @@ h1 {
 .filter-button:focus {
   color: var(--secondary-color);
   background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filter-button {
@@ -502,6 +521,7 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   padding: 6px 22px;
+  border: none;
 }
 /* добавить див для 9 элементов, добавить для х и р див, сделать рамку
  добавить расстояние между кнопками, паддинг сделать вниз, а не вверх */
@@ -548,6 +568,12 @@ h1 {
 .service-item {
   outline: 1px solid #eeeeee;
   margin-bottom: 30px;
+}
+
+.service-item:hover {
+  outline: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .action {
