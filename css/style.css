@@ -52,8 +52,8 @@ ul {
 
 .container {
   width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -222,7 +222,7 @@ ul {
   padding-left: 10px;
  } */
 
-.mail::before {
+.mail:before {
   display: inline-block;
   content: "";
 }
@@ -232,8 +232,12 @@ ul {
   content: "";
 }
 
-.info-svg {
+.mail::before .info-svg {
   margin-right: 10px;
+}
+
+.mail:hover::before {
+  fill: var(--brand-color);
 }
 
 .web-logo {
@@ -416,6 +420,7 @@ h1 {
   justify-content: center;
   align-items: center;
   list-style: none;
+  margin-top: 16px;
 }
 
 .socials-item:not(:last-child) {
@@ -588,6 +593,14 @@ h1 {
   fill: #afb1b8;
 }
 
+.action-icon-feature {
+  fill: #afb1b8;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+
+.action-icon,
 .action-logo {
   display: flex;
   align-items: center;
